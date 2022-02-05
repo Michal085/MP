@@ -9,7 +9,7 @@ for number in numbers:
 for letter in "Michal Hucko":
     print(letter) 
 
-# Funkcia range nam pomaha vytvorit pocitadlo, alebo pole cisel <dolnyny interval; horny interval)
+# Funkcia range nam pomaha vytvorit pocitadlo, alebo pole cisel <dolny interval; horny interval)
 counter = range(0, 5)
 print(counter)
 
