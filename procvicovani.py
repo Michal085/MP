@@ -1,7 +1,7 @@
 # 1
-#hodnoty = [44,54,64,74,104]
-#plus_sest = [x+6 for x in hodnoty]
-#print(plus_sest)
+hodnoty = [44,54,64,74,104]
+plus_sest = [x+6 for x in hodnoty]
+print(plus_sest)
 
 2
 cars_kilos ={"Sedan": 1500, "Kodiaq": 2000, "Pickup": 2500, "Man": 16000, "Van": 2400, "Semi": 13600, "Bicycle": 7, "Motorcycle": 110}
