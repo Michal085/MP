@@ -12,7 +12,7 @@ for film in filmy:
     year_int = int(year.strip('()'))
     director_and_actors_list = film.find('a').get('title').split(',')
     director = director[0: -6]
- #   resault = [name, year, ]
+    resault = [name, year, ]
     reziser_herci_=film.find('a').get('title')
     jmeno_rok_rez_herci = [name, year_int, reziser_a_herci]
     filmy_list.append(jmeno_rok_rez_herci)
