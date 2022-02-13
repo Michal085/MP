@@ -1,119 +1,118 @@
 #zakladne cvicenia
-#print('ahoj svet')
-#print(3, 4, 5)
-#print('1','2','3')
-#print('what', 'a' 'beautiful' , 'day' , sep=',')
-#import this
-#x = 2 + 2
-#print(type(x))
-#y = 2 + 2.
-#print(type(y))
-#xy = 4/2
-#print(type(xy))
-#yy = 4/3
-#print(type(yy))
+print('ahoj svet')
+print(3, 4, 5)
+print('1','2','3')
+print('what', 'a' 'beautiful' , 'day' , sep=',')
+x = 2 + 2
+print(type(x))
+y = 2 + 2.
+print(type(y))
+xy = 4/2
+print(type(xy))
+yy = 4/3
+print(type(yy))
 
-#listnumbers = [5, 6, 8, 9, 25]
-#print('priemer =' , sum(listnumbers) / len (listnumbers))
-
-#
-#x = not ("asd" == "qwe")
-#print(x)
-
-#num = 3
-#num = num +4
-#print(num)
-
-#x = 0
-#while x < 5:
-# x = x + 1
-#print(x)
-#def sum_up(x, y):
-#   return x + y
-
-#import json_txt
-#def zmen (x) :
-#    x [0] = 30
-#a = [1, 2, 3]
-#print(a)
-#zmen(a)
-#print(a)
-#class Calculator:
-#    def __init__(self, initial_value):
-#        self.current_value = initial_value
-#        self.results_history = []
-
-#    def add(self, x):
-#        self.results_history.append(self.current_value)
-#        self.current_value += x
-
-#    def divide(self, x):
-#        if x == 0:
-#            return False
-
-#        self.results_history += [self.current_value]
-#        self.current_value /= x
-#        return True
-
-#    def subtract(self, x):
-#        self.results_history += [self.current_value]
-#        self.current_value -= x
-
-#    def multiply(self, x):
-#        self.results_history += [self.current_value]
-#        self.current_value = self.current_value * x
-
-#    def undo(self):
-#        if not self.results_history:
-#            self.current_value = 0
-#        else:
-#            self.current_value = self.results_history.pop()
-
-    # self.current_value = self.results_history.pop() if self.results_history else 0
-
-#def alice_cats(number_of_cats):
-#    if number_of_cats == 1:
-#        cat_string = 'a cat'
-
-#    if number_of_cats>20 and number_of_cats<10 and number_of_cats % 10 in {2, 3, 4}:
-#        cat_string = 'cats'
-
-#    else:
-#        cat_string = 'cats'
-
-#    return f'Alice has {number_of_cats} ' + cat_string + '.'
+listnumbers = [5, 6, 8, 9, 25]
+print('priemer =' , sum(listnumbers) / len (listnumbers))
 
 
-#print(alice_cats(14))
+x = not ("asd" == "qwe")
+print(x)
+
+num = 3
+num = num +4
+print(num)
+
+x = 0
+while x < 5:
+ x = x + 1
+print(x)
+def sum_up(x, y):
+   return x + y
 
 
-#import random
+def zmen (x) :
+    x [0] = 30
+a = [1, 2, 3]
+print(a)
+zmen(a)
+print(a)
+class Calculator:
+    def __init__(self, initial_value):
+       self.current_value = initial_value
+        self.results_history = []
 
-#def repated_myself():
-#    set_numbers = set()
+    def add(self, x):
+        self.results_history.append(self.current_value)
+        self.current_value += x
 
-#    for i in range(10):
-#        number = random.randint(0,10)
-#        set_numbers.add(number)
+    def divide(self, x):
+        if x == 0:
+            return False
 
-#    if len(set_numbers) < 10:
-#        print('Oh no I repeated myself!')
+        self.results_history += [self.current_value]
+        self.current_value /= x
+        return True
 
-#repated_myself()
+    def subtract(self, x):
+        self.results_history += [self.current_value]
+        self.current_value -= x
 
-#tensor = [[[1,2,3],[1,2,3],[1,2,3]],
-#          [[1,2,3],[1,2,3],[1,2,3]],
-#          [[1,2,3],[1,2,3],[1,2,3]]]
+    def multiply(self, x):
+        self.results_history += [self.current_value]
+        self.current_value = self.current_value * x
 
-#def flatten_tensor(tensor):
-#    flatten = []
+    def undo(self):
+        if not self.results_history:
+            self.current_value = 0
+        else:
+            self.current_value = self.results_history.pop()
 
-#    for matrix in tensor:
-#        for row in matrix:
-#            for element in row:
-#                flatten.append(element)
+     self.current_value = self.results_history.pop() if self.results_history else 0
 
-#    return flatten
+def alice_cats(number_of_cats):
+    if number_of_cats == 1:
+        cat_string = 'a cat'
+
+    if number_of_cats>20 and number_of_cats<10 and number_of_cats % 10 in {2, 3, 4}:
+        cat_string = 'cats'
+
+    else:
+        cat_string = 'cats'
+
+    return f'Alice has {number_of_cats} ' + cat_string + '.'
+
+
+print(alice_cats(14))
+
+
+import random
+
+def repated_myself():
+    set_numbers = set()
+
+    for i in range(10):
+        number = random.randint(0,10)
+        set_numbers.add(number)
+
+    if len(set_numbers) < 10:
+        print('Oh no I repeated myself!')
+
+repated_myself()
+
+tensor = [[[1,2,3],[1,2,3],[1,2,3]],
+          [[1,2,3],[1,2,3],[1,2,3]],
+          [[1,2,3],[1,2,3],[1,2,3]]]
+
+def flatten_tensor(tensor):
+    flatten = []
+
+    for matrix in tensor:
+        for row in matrix:
+            for element in row:
+                flatten.append(element)
+
+    return flatten
 
 #print(flatten_tensor(tensor))
 
