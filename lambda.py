@@ -1,6 +1,6 @@
-#zvirata =["otter", "whale", "goose", "chipmunk", "fox", "sheep", "rabbit", "marten"]
-#sorted_zvirata = sorted(zvirata, key=lambda x: len(x))
-#print(sorted_zvirata)
+zvirata =["otter", "whale", "goose", "chipmunk", "fox", "sheep", "rabbit", "marten"]
+sorted_zvirata = sorted(zvirata, key=lambda x: len(x))
+print(sorted_zvirata)
 
 
 mesta_populace =[(19542209, "New York") ,(4887871, "Alabama"), (1420491, "Hawaii"), (626299, "Vermont"), (1805832, "West Virginia"), (39865590, "California")]
