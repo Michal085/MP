@@ -388,6 +388,6 @@ vyhoďte vyjímku `ValueError("Invalid number of bags!")`
 
 ```
 def number_of_bags_allowed(flight: dict, bags: int) -> bool:
-    # Vase implementace zde
+    # Vasa implementacia tu
 ```
 """
