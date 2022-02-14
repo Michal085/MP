@@ -114,47 +114,45 @@ def flatten_tensor(tensor):
 
     return flatten
 
-#print(flatten_tensor(tensor))
+print(flatten_tensor(tensor))
 
-#radius1 = 32
-#radius2 = 36
-#price1 = 15
-#price2 = 20
+radius1 = 32
+radius2 = 36
+price1 = 15
+price2 = 20
 
-#def circle_area_to_price(radius, price):
+def circle_area_to_price(radius, price):
 
-#    pi = 3.14
-#    area = pi * radius * radius
-#    return area/price
+    pi = 3.14
+    area = pi * radius * radius
+    return area/price
 
-#print(circle_area_to_price(radius1, price1))
-#print(circle_area_to_price(radius2, price2))
+print(circle_area_to_price(radius1, price1))
+print(circle_area_to_price(radius2, price2))
 
 
 
-#1 Napis program , ktory zobrzi vsetky priridene cisla od 0 do  100
-#for x in range(51):
-#    if (x == 0 or x==50):
-#        continue
-#    print(x,end=' ')
-#print("\n")
+#1 Napis program , ktory zobrzi vsetky priradene cisla od 0 do  100
+for x in range(51):
+    if (x == 0 or x==50):
+        continue
+    print(x,end=' ')
+print("\n")
 
 #2 Napíšte program, ktorý zobrazí všetky párne čísla od 0 do 100.
-#start, end = 1, 100
-#for num in range(start, end + 1):
-
-
-#    if num % 2 == 0:
-#        print(num, end=" ")
+start, end = 1, 100
+for num in range(start, end + 1):
+    if num % 2 == 0:
+        print(num, end=" ")
 
 #3 Napíšte program, ktorý zobrazí druhé mocniny všetkých celých čísel medzi 0 a 10.
 
-#def printValues():
-#    l = list()
-#    for i in range(0, 10):
-#        l.append(i ** 2)
-#    print(l)
-#printValues()
+def printValues():
+    l = list()
+    for i in range(0, 10):
+        l.append(i ** 2)
+    print(l)
+printValues()
 
 #4 Pomocou slučky napíšte čísla od -20 do 20. Potom napíšte: - prvých 6 čísel
 #posledných 6 čísel
@@ -166,30 +164,30 @@ def flatten_tensor(tensor):
 #súčet čísel väčších alebo rovných 4
 #všetky čísla a ich právomoci
 #všetky čísla a ich hodnoty pre modulo 10
-#for i in range (-20, 20, 2):
-#    print(i)
+for i in range (-20, 20, 2):
+    print(i)
 
-#cislo = int (input('zadaj cislo :'))
-#print(cislo // 10, cislo % 10)
-#print(cislo // 100, cislo % 100)
-#print(cislo // 1000, cislo % 1000)
-#print(cislo // 10000, cislo % 10000)
+cislo = int (input('zadaj cislo :'))
+print(cislo // 10, cislo % 10)
+print(cislo // 100, cislo % 100)
+print(cislo // 1000, cislo % 1000)
+print(cislo // 10000, cislo % 10000)
 
-#dni = 365*12 + 8*30 + 21
-#print('pocet dni je', dni)
-#hodin = dni * 24
-#sekund = hodin * 3600
-#print('pocet hodin je', hodin)
-#print('pocet sekund je', sekund)
+dni = 365*12 + 8*30 + 21
+print('pocet dni je', dni)
+hodin = dni * 24
+sekund = hodin * 3600
+print('pocet hodin je', hodin)
+print('pocet sekund je', sekund)
 
-#for i in range (5):
-# print(i)
-# print('Konec tohoto kola cyklu')
+for i in range (5):
+ print(i)
+ print('Konec tohoto kola cyklu')
 
-#print("Zdvojnásobovač!")
-#cislo = float(input("Zadajte číslo: ")) # reťazec z input () sa prevedie na celé číslo
-#print("Jeho dvojnásobok je:", 2 * cislo)
-#input()
+print("Zdvojnásobovač!")
+cislo = float(input("Zadajte číslo: ")) # reťazec z input () sa prevedie na celé číslo
+print("Jeho dvojnásobok je:", 2 * cislo)
+input()
 
 print("Vitajte v kalkulačke\n")
 prvni_cislo = float(input("Zadajte prvé číslo: "))
