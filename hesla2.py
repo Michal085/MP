@@ -1,5 +1,5 @@
 import hashlib
-inFileName = input("Zadaj nazov vstupu")
+inFileName = input("Zadaj názov vstupu")
 intFile = open(outfileName , 'w')
 
 with open (inFileName) as f:
