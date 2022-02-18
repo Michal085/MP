@@ -24,7 +24,7 @@ def translate(text, target_lang, source_lang=None):
     return preklad["translations"][0]["text"]
 
 
-# print(translate("kiwi neni zelenina", "EN", "CS"))
+ print(translate("kiwi neni zelenina", "EN", "CS"))
 
 def send_email(reciever_email, message):
     sender_email = "rebelbean@seznam.cz"
@@ -52,4 +52,4 @@ def translator():
         send_email(poslat_na_mail, preklad)
     return preklad
 
-# print(translator())
+ print(translator())
