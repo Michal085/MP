@@ -1,2 +1,4 @@
-.vscode/
+new_exercise.vscode/
+
 __pycache__/
+marking_tests.py

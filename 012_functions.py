@@ -43,7 +43,7 @@ sum(numbers) # build in python function
 
 # sum_list(["M", "i", "c", "h", "a", "l"]) # Preco je toto chyba ? 
 
-# Funkcie vieme pouzit kde kilvek v kode napr v podmienke 
+# Funkcie vieme pouzit kde kolvek v kode napr v podmienke 
 def simple_sum(a, b):
     return a+b
 
