@@ -1,4 +1,3 @@
-# Video: https://youtu.be/MMxxnj5aP8Y
 # String vieme definovat pomocou dvojitych uvodzoviek
 string="This is string"
 
