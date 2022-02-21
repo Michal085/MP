@@ -1,4 +1,3 @@
-# Video https://youtu.be/iO-G70z1iqE
 # Do premennej mozme ulozit hocijaky datovy typ
 pocet_jablk=2 
 pocet_hrusiek=3.4
@@ -9,7 +8,7 @@ number_of_windows=10
 cars=1
 Cars=2
 
-# Premennu mozme definovat aj niekolko krat
+# Premennu mozme definovat aj viac  krat
 jablka=4
 jablka=3
 
