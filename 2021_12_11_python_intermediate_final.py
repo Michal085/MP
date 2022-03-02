@@ -142,16 +142,16 @@ def parse_line_as_dict(line: str) -> dict:
     return instruction
 
 
-# print(parse_line_as_tuple(instruction_line))
-# print(parse_line_as_list(instruction_line))
-# print(parse_line_as_dict(instruction_line))
+ print(parse_line_as_tuple(instruction_line))
+ print(parse_line_as_list(instruction_line))
+ print(parse_line_as_dict(instruction_line))
 
 
 def load_and_parse(file_name: str) -> list[tuple[str, int]]:
     return [parse_line_as_tuple(line) for line in load_lines(file_name)]
 
 
-# print(load_and_parse("day2.txt"))
+ print(load_and_parse("day2.txt"))
 
 
 class Direction(enum.Enum):
