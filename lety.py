@@ -353,7 +353,7 @@ def add(x, y, z):
 
 
 # Volani int na nejakou hodnotu
-# print(int("123"))
+print(int("123"))
 
 
 CHALLENGE_4 = """
