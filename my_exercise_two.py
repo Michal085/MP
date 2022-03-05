@@ -49,6 +49,42 @@
 #print(f'minimalna teplota je {minimum}')
 #print(f'maximalna teplota je {maximum}')
 
-ab = [2, 3, 5, 6, 9, 25]
-ab[2] = 8
-print(ab)
+#ab = [2, 3, 5, 6, 9, 25]
+#ab[2] = 8
+#print(ab)
+
+#def sucet_cisiel(cislo1, cislo2):
+#   result = cislo1 + cislo2
+#   return result
+#sucet = sucet_cisiel(cislo2=5, cislo1=2)
+#sucet_cisiel(2, 5)
+#print('Sucet je' , sucet)
+
+#def string_addition_with_delimiter(string1, string2, delimiter ="**"):
+#    return string1 + delimiter + string2
+
+#temp = string_addition_with_delimiter("Michal", "Placko")
+#print(temp)
+
+#cisla = list(range(0,9))
+#print(cisla)
+
+#def sum_array(array):
+#    sucet = 0
+#    for number in array:
+#        sucet += number
+#        return sucet
+
+#print(sum_array(cisla))
+
+#def simple_sum(a, b):
+#    return  a + b
+
+#if simple_sum(4,3) > simple_sum(5, 2):
+#    print("First is bigger")
+#else:
+#    print("Second is bigger")
+
+#first_tuple = (1, 2, 3, )
+#print(first_tuple)
+
