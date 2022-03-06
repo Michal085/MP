@@ -23,16 +23,16 @@ soup = BeautifulSoup(r.text, "html.parser")
 text_field = soup.find("div", {"id" : "introtext mt20"})
 print(text_field)
 
-strana = float(input('Zadej stranu čtverce v centimetrech: '))
+strana = float(input('Zadaj stranu stvorca v centimetroch: '))
 cislo_je_spravne = strana > 0
 
 if cislo_je_spravne:
-    print('Obvod čtverce se stranou', strana, 'je', 4 * strana, 'cm')
-    print('Obsah čtverce se stranou', strana, 'je', strana * strana, 'cm2')
+    print('Obvod stvorca so stranou', strana, 'je', 4 * strana, 'cm')
+    print('Obsah stvorca so stranou', strana, 'je', strana * strana, 'cm2')
 else:
-    print('Strana musí být kladná, jinak z toho nebude čtverec!')
+    print('Strana musí byt kladná, inak z toho nebude stvorec!')
 
-print('Děkujeme za použití geometrické kalkulačky.')
+print('Dakujeme za použití geometrickej kalkulačky.')
 
 
 
