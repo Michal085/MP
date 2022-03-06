@@ -32,7 +32,7 @@ if cislo_je_spravne:
 else:
     print('Strana musí byt kladná, inak z toho nebude stvorec!')
 
-print('Dakujeme za použití geometrickej kalkulačky.')
+print('Dakujeme za použitie geometrickej kalkulačky.')
 
 
 
