@@ -48,27 +48,27 @@ print(result)
 #else:
 #    print("He is a programmer")
 
-#body = int(input('Zadaj pocet bodou'))
-#if body >= 90:
-# print('Za' , body , 'bodou ziskavas znamku A')
-#else:
-#    if body >= 80:
-#        print('Za' , body , 'bodou ziskavas znamku B')
-#    else:
-#        if body >= 70:
-#            print('Za' , body , 'bodou ziskavas znamku C')
-#        else:
-#                if body >= 60:
-#                   print('Za' , body , 'bodou ziskava znamku D')
-#              else:
-#                    if body >= 50:
-#                        print('Za' , body , 'bodou ziskavas znamku E')
-#                    else:
-#                        print('Za' , body , 'bodou si nevyhovel a ziskavas znamku FX')
+body = int(input('Zadaj pocet bodou'))
+if body >= 90:
+ print('Za' , body , 'bodou ziskavas znamku A')
+else:
+    if body >= 80:
+        print('Za' , body , 'bodou ziskavas znamku B')
+    else:
+        if body >= 70:
+            print('Za' , body , 'bodou ziskavas znamku C')
+        else:
+                if body >= 60:
+                   print('Za' , body , 'bodou ziskava znamku D')
+              else:
+                    if body >= 50:
+                        print('Za' , body , 'bodou ziskavas znamku E')
+                    else:
+                        print('Za' , body , 'bodou si nevyhovel a ziskavas znamku FX')
 
 # ZOZNAMY
 
-#teploty = [6, 13, 28, 10, 17, 12, 24, 29]
+teploty = [6, 13, 28, 10, 17, 12, 24, 29]
 
 sucet = sum(teploty) # ciselny sucet prvkov
 maximum = max(teploty) # maximalny prvok hodnoty 
@@ -144,14 +144,14 @@ sucet = sucet_cisiel(sucet_cisiel(cislo2=10, cislo1=15),3)
 print(sucet)
 
 # Priemer
-#pocet =0 
-#suma = 0
-#for cena in 1.75, 2.20, 1.03, 4.00, 3.50, 2.90, 1.89:
-#    suma = suma + cena
-#    pocet = pocet +1
-#print("nakupil si", pocet ,"poloziek")
-#print("Za", suma, "euro")
-#print("Priemerna cena bola", round(suma/pocet, 2),"euro")
+pocet =0 
+suma = 0
+for cena in 1.75, 2.20, 1.03, 4.00, 3.50, 2.90, 1.89:
+    suma = suma + cena
+    pocet = pocet +1
+print("nakupil si", pocet ,"poloziek")
+print("Za", suma, "euro")
+print("Priemerna cena bola", round(suma/pocet, 2),"euro")
 
 #strana = float(input('Zadaj stranu stvorca v centimetroch: '))
 #cislo_je_spravne = strana > 0
