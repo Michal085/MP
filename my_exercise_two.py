@@ -88,3 +88,55 @@
 #first_tuple = (1, 2, 3, )
 #print(first_tuple)
 
+#def sucet_cisiel(cislo1, cislo2):
+#    result = cislo1 + cislo2
+#    return result
+
+#x =(5 + 4) +3
+#sucet = sucet_cisiel(sucet_cisiel(cislo1=2 , cislo2=8),3)    
+#print(sucet)
+
+#cisla = list(range(0, 9))
+#print(cisla)
+
+#def sum_array(array):
+#    sucet = 0
+#    for number in array:
+#        sucet += number
+#    return sucet
+#print(sum_array(cisla))        
+
+#def sucet_cisiel(cislo1, cislo2):
+#    result = cislo1 + cislo2
+#    return result
+
+#x = (5 + 4) +3 
+#sucet = sucet_cisiel(sucet_cisiel(cislo2=10, cislo1=15),3)
+#print(sucet)
+
+# Priemer
+#pocet =0 
+#suma = 0
+#for cena in 1.75, 2.20, 1.03, 4.00, 3.50, 2.90, 1.89:
+#    suma = suma + cena
+#    pocet = pocet +1
+#print("nakupil si", pocet ,"poloziek")
+#print("Za", suma, "euro")
+#print("Priemerna cena bola", round(suma/pocet, 2),"euro")
+
+#strana = float(input('Zadaj stranu stvorca v centimetroch: '))
+#cislo_je_spravne = strana > 0
+
+#if cislo_je_spravne:
+#    print('Obvod stvorca so stranou', strana, 'je', 4 * strana, 'cm')
+#    print('Obsah stvorca so stranou', strana, 'je', strana * strana, 'cm2')
+#else:
+#    print('Strana musí byt kladná, inak z toho nebude stvorec!')
+
+#print('Dakujeme za použití geometrickej kalkulačky.')
+
+
+
+    
+    
+

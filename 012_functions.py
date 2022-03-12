@@ -17,7 +17,7 @@ def string_addition_with_delimiter(string1, string2, delimiter):
     return string1 + delimiter + string2
 
 string_addition_with_delimiter("Michal" , "Hucko", ", ")
-# Ak vyuzijeme pomenovane atributy mozme ich ulozit v roznom poradi
+# Ak vyuzijeme pomenovane atributy mozme ich ulozit v rozumnom poradi
 string_addition_with_delimiter(delimiter=" ", string2="Hucko", string1="Michal")
 
 # Optional parametre funkcie. Musia byt definovane vzdy za  vynutenymi parametrami inac nastane chyba !! 

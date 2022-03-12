@@ -20,8 +20,8 @@ def list_from_csv(csv_file: str) -> list[dict]:
 
 
     result = []
-    with open(csv_file, newline="", encoding="utf-8") as f:
-        for d in csv.DictReader(f):
+    with open(csv_file, newline="", encoding="utf-8") as r:
+        for d in csv.DictReader(r):
             result.append(d)
 
     return result
