@@ -27,26 +27,26 @@ result = [num + 3 for num in numbers if num % 2 == 0]
 print(result)
 
 
-#retazec = input('zadaj retazec: ')
-#pocet = 0
-#for znak in retazec:
-#    pocet = pocet + 1      # alebo  pocet += 1
-#print('dlzka retazca =', pocet)
-#is_student = False
-#is_programmer = True
+retazec = input('zadaj retazec: ')
+pocet = 0
+for znak in retazec:
+    pocet = pocet + 1      # alebo  pocet += 1
+print('dlzka retazca =', pocet)
+is_student = False
+is_programmer = True
 
-#if is_programmer == False:
-#    print("Is not a programmer")
-#elif is_student == True:
-#    print("Is student")
-#else:
-#    print("Is a programmer and is not a student")
+if is_programmer == False:
+    print("Is not a programmer")
+elif is_student == True:
+    print("Is student")
+else:
+    print("Is a programmer and is not a student")
 
-#is_programmer = False
-#if not is_programmer:
-#    print("He is not a programmer")
-#else:
-#    print("He is a programmer")
+is_programmer = False
+if not is_programmer:
+    print("He is not a programmer")
+else:
+    print("He is a programmer")
 
 body = int(input('Zadaj pocet bodou'))
 if body >= 90:
@@ -153,13 +153,13 @@ print("nakupil si", pocet ,"poloziek")
 print("Za", suma, "euro")
 print("Priemerna cena bola", round(suma/pocet, 2),"euro")
 
-#strana = float(input('Zadaj stranu stvorca v centimetroch: '))
-#cislo_je_spravne = strana > 0
+strana = float(input('Zadaj stranu stvorca v centimetroch: '))
+cislo_je_spravne = strana > 0
 
-#if cislo_je_spravne:
-#    print('Obvod stvorca so stranou', strana, 'je', 4 * strana, 'cm')
-#    print('Obsah stvorca so stranou', strana, 'je', strana * strana, 'cm2')
-#else:
-#    print('Strana musí byt kladná, inak z toho nebude stvorec!')
+if cislo_je_spravne:
+    print('Obvod stvorca so stranou', strana, 'je', 4 * strana, 'cm')
+    print('Obsah stvorca so stranou', strana, 'je', strana * strana, 'cm2')
+else:
+    print('Strana musí byt kladná, inak z toho nebude stvorec!')
 
-#print('Dakujeme za použití geometrickej kalkulačky.')
+print('Dakujeme za použití geometrickej kalkulačky.')
