@@ -306,8 +306,8 @@ prod_ = lambda lst: functools.reduce(lambda a, b: a * b, lst, 1)  # Emuluje math
 min_ = lambda lst: functools.reduce(lambda a, b: min(a, b), lst)  # Emuluje buitins.min
 max_ = lambda lst: functools.reduce(lambda a, b: max(a, b), lst)  # Emuluje buitins.max
 
-# print(sum_([1, 2, 3, 4]))  # Vytiskne 10
-# print(prod_([1, 2, 3, 4]))  # Vytiskne 24 - 4*3*2*1*1
+ print(sum_([1, 2, 3, 4]))  # Vytiskne 10
+ print(prod_([1, 2, 3, 4]))  # Vytiskne 24 - 4*3*2*1*1
 
 print_with_separator("")
 
@@ -375,8 +375,8 @@ def sleeper(x):
 
 
 # Odkomentujte, pokud si chtete trochu pospat
-# r = sleeper(1.2)
-# print(r)
+ r = sleeper(1.2)
+ print(r)
 
 
 def zrava_funkce(*args, **kwargs):
@@ -394,9 +394,9 @@ def zrava_funkce(*args, **kwargs):
     print(f"Pojmenovane argumenty: {kwargs}")
 
 
-# f(1, 2)
-# f(1, 2, 3, 4, x=1, y=2, z=3)
-# ...
+ f(1, 2)
+ f(1, 2, 3, 4, x=1, y=2, z=3)
+ ...
 
 
 CHALLENGE_5 = """\
