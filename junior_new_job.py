@@ -14,15 +14,15 @@
 # premennu mozme definovat aj viac krat
 # pozor velke a male pismena niesu to iste 
 # nazvy premennych mozu pozostavat len z malych a velkych pismen LEPSIE JE POUZIVAT ANGLICKE NAZVY A _ podtrzniku  
-#number_cars = 25  
-#number_employees = 10
-#print(number_cars + number_employees)
+number_cars = 25  
+number_employees = 10
+print(number_cars + number_employees)
 
 # datove typy boolean
 # tento datovy typ ma len dve hodnoty True a False 
 
-#true_value = True
-#false_value = False
+true_value = True
+false_value = False
 
 # vysledkom porovnavacich operacii je datovy typ 
 #3 < 5
@@ -34,9 +34,9 @@
 
 # na zistenie rovnosti pouzi vzdy dvojite == dovod je ze jedno = sa pouziva pri priradeni premennej 
 # porovnavacie operacie vieme aj retazit logickymi operatormi and, or
-#x = 3 > 4 or 4 > 3
-#print(x) # TRUE
-#print(not(x)) # FALSE
+x = 3 > 4 or 4 > 3
+print(x) # TRUE
+print(not(x)) # FALSE
 
 # negacia pomocou funkcie not
 #Logický súčin a súčasne
@@ -60,26 +60,26 @@
 
 # Retazce Strings
 # string vieme definovat pomocou dvojitych "" uvodzoviek ale aj jednoduchych ''
-#string = "priamy vypis stringu"
-#print(string)
+string = "priamy vypis stringu"
+print(string)
 # string, hocijaky datovy tip ale aj premennu vieme vypisat pomocou funkcie print
-#print(1)
-#print(1.5)
-#print(True)
-#string = 'This is single quote \' in single quote string ' # takto definujeme uvodzovku v stringu plati aj ak chceme dvojitu "
-#print(string)
+print(1)
+print(1.5)
+print(True)
+string = 'This is single quote \' in single quote string ' # takto definujeme uvodzovku v stringu plati aj ak chceme dvojitu "
+print(string)
 
-#string1 = "This is string with \nnew line" # \n je symbolnoveho riadka , vidime ho len pomocou print 
-#print(string1)
+string1 = "This is string with \nnew line" # \n je symbolnoveho riadka , vidime ho len pomocou print 
+print(string1)
 
-#string2 = "This is string with \n\tnew line and tab" # je symbol tabulatoru odsadi nam 4 medzeri 
-#print(string2)
+string2 = "This is string with \n\tnew line and tab" # je symbol tabulatoru odsadi nam 4 medzeri 
+print(string2)
 
-#new_patch = "C:\documents\notes" # co ak nechceme vypisat novy riadok 
-#print(new_patch)
+new_patch = "C:\documents\notes" # co ak nechceme vypisat novy riadok 
+print(new_patch)
 
-#new_patch = r"C:\documents\notes"  # pomocou r robi ze zmaze ucinost specialneho znaku 
-#print(new_patch)
+new_patch = r"C:\documents\notes"  # pomocou r robi ze zmaze ucinost specialneho znaku 
+print(new_patch)
 
 #\n - nový riadok
 #\t - tabulátor
