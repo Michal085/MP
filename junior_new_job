@@ -204,9 +204,9 @@
 
 #person = { 
 #    "name" : "Michal", 
-#    "surname": "Hucko", 
+#    "surname": "Placko", 
 #    "languages": ["Python", "JavaScript", "Java"],
-#    "instagram": "@misohucko",
+#    "instagram": "@misoplacko",
 #    "address": {
 #        "city": "New York",
 #        "street": "stret_name",
