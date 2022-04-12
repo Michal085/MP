@@ -91,37 +91,37 @@ print(new_patch)
 # stringy pozostavaju so znakou nie s pismen a cisiel 
 
 #string_concatenation = "Hello" + " " +  "world" #ak chceme medzi Helloworld medzeru tak jednoducho + " " + cize vieme ich aj spajat
-#print(string_concatenation)
+print(string_concatenation)
 
 # stringy vieme aj nasobit 
-#string_multiplication = 3 * "Hi "
-#print(string_multiplication)
+string_multiplication = 3 * "Hi "
+print(string_multiplication)
 
 # ak chceme vieme spajat aj string a cislo 
-#string_exercise = "Number is "
-#string_exercise_two = 6
-#print(string_exercise + string_exercise_two) # toto nam vypise chybu ze nemozme scitavat string a integer (cislo)
+string_exercise = "Number is "
+string_exercise_two = 6
+print(string_exercise + string_exercise_two) # toto nam vypise chybu ze nemozme scitavat string a integer (cislo)
 
-#print(string_exercise + str(string_exercise_two)) # prekastujeme pomocou str premeni cislo na string
+print(string_exercise + str(string_exercise_two)) # prekastujeme pomocou str premeni cislo na string
 
 
 # do stringu vieme pristupovat pomocou indexu ktory zacina od 0 a []
-#name = "Michal Placko"
+name = "Michal Placko"
 #       0123456789101112
 #                    
-#print(name[0])
-#print(name[4])
+print(name[0])
+print(name[4])
 
-#print(name[0:13]) # vieme pristupovat aj cez zlozeny index 
-#print(name[0:6])
-#print(name[-13:])
-#print(name[:-4])
-#print(name[- 8:])
+print(name[0:13]) # vieme pristupovat aj cez zlozeny index 
+print(name[0:6])
+print(name[-13:])
+print(name[:-4])
+print(name[- 8:])
 
 # listy LISTS
 
-#number_list = [1, 2, 3, 4, 5, 6, 7] # nasledna definicia listu
-#print(number_list)
+number_list = [1, 2, 3, 4, 5, 6, 7] # nasledna definicia listu
+print(number_list)
 
 # vieme don vkladat akekolvek datove typy
 #string_list = ["Michal", "Placko", "Joseph"]
