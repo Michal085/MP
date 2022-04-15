@@ -124,23 +124,23 @@ number_list = [1, 2, 3, 4, 5, 6, 7] # nasledna definicia listu
 print(number_list)
 
 # vieme don vkladat akekolvek datove typy
-#string_list = ["Michal", "Placko", "Joseph"]
-#combinated_list = [1, "Michal", "Joseph", True, 2.5]
+string_list = ["Michal", "Placko", "Joseph"]
+combinated_list = [1, "Michal", "Joseph", True, 2.5]
 
 # index listu je rovnaky ako list indexu stringu 
-#print(number_list[0])
-#print(number_list[2:4]) 
-#print(number_list[0:3])
-#print(number_list[-1])
-#print(number_list[-2:])
+print(number_list[0])
+print(number_list[2:4]) 
+print(number_list[0:3])
+print(number_list[-1])
+print(number_list[-2:])
 
 # listy vieme aj scitavat 
-#print(number_list + [8, 9, 10, 11])
+print(number_list + [8, 9, 10, 11])
 
 
 # listy na rozdiel od stringu vieme upravovat pomocou indexu [] 
-#best_name ="Michal Placko"
-#numbers = [0, 1, 2, 3, 4, 5, 6, 7,]
+best_name ="Michal Placko"
+numbers = [0, 1, 2, 3, 4, 5, 6, 7,]
 #numbers + [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
 #numbers[0] = 10 # miesto 0 sa zmeni hodnota na 10 
 #print(numbers)
