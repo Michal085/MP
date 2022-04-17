@@ -90,7 +90,7 @@ print(new_patch)
 # znakove retazce string_operations
 # stringy pozostavaju so znakou nie s pismen a cisiel 
 
-#string_concatenation = "Hello" + " " +  "world" #ak chceme medzi Helloworld medzeru tak jednoducho + " " + cize vieme ich aj spajat
+string_concatenation = "Hello" + " " +  "world" #ak chceme medzi Helloworld medzeru tak jednoducho + " " + cize vieme ich aj spajat
 print(string_concatenation)
 
 # stringy vieme aj nasobit 
@@ -141,7 +141,7 @@ print(number_list + [8, 9, 10, 11])
 # listy na rozdiel od stringu vieme upravovat pomocou indexu [] 
 best_name ="Michal Placko"
 numbers = [0, 1, 2, 3, 4, 5, 6, 7,]
-#numbers + [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+numbers + [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
 #numbers[0] = 10 # miesto 0 sa zmeni hodnota na 10 
 #print(numbers)
 
