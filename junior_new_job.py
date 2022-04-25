@@ -142,13 +142,13 @@ print(number_list + [8, 9, 10, 11])
 best_name ="Michal Placko"
 numbers = [0, 1, 2, 3, 4, 5, 6, 7,]
 numbers + [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
-#numbers[0] = 10 # miesto 0 sa zmeni hodnota na 10 
-#print(numbers)
+numbers[0] = 10 # miesto 0 sa zmeni hodnota na 10 
+print(numbers)
 
 # upravit vieme aj pomocou zloeneho indexu 
-#numbers[1:3]
-#numbers + [1, 2]
-#print(numbers)
+numbers[1:3]
+numbers + [1, 2]
+print(numbers)
 
 #Podmienky , CONDITIONS
 # jednoducha podmienka . Splni sa ak je vyraz v podmienke pravda , vzdy musime cast vykonania oddelit  but tab alebo 4 medzerami
