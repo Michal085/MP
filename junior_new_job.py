@@ -152,11 +152,11 @@ print(numbers)
 
 #Podmienky , CONDITIONS
 # jednoducha podmienka . Splni sa ak je vyraz v podmienke pravda , vzdy musime cast vykonania oddelit  but tab alebo 4 medzerami
-#is_student = True
-#if is_student == True:
-#    print("He is a programmer")
+is_student = True
+if is_student == True:
+    print("He is a programmer")
 
-#is_programmer = True
+is_programmer = True
 #is_student = True
 #if is_programmer ==False:
 #    print("He is a programmer")
