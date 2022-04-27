@@ -157,12 +157,12 @@ if is_student == True:
     print("He is a programmer")
 
 is_programmer = True
-#is_student = True
-#if is_programmer ==False:
-#    print("He is a programmer")
+is_student = True
+if is_programmer ==False:
+    print("He is a programmer")
 # ak vyraz nieje pravda tak python vykona kod v casti else
-#else:
-#    print("He is not a programmer")
+else:
+    print("He is not a programmer")
 
 # takto jednoducho vieme retazit podmienky ak neplati if python prejde na druhu elif a ak neplati ani ten prejde na else 
 #if is_programmer == False:
