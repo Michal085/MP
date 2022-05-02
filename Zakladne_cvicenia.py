@@ -1,11 +1,11 @@
 # Calculator
 print("Vitajte v kalkulačke\n")
-prvne_cislo = float(input("Zadajte prvé číslo: "))
+prve_cislo = float(input("Zadajte prvé číslo: "))
 druhe_cislo = float(input("Zadajte druhé číslo: "))
-print("Súčet:", prvne_cislo + druhe_cislo)
-print("Rozdiel:", prvne_cislo - druhe_cislo)
-print("Súčin:", prvne_cislo * druhe_cislo)
-print("Podiel:", prvne_cislo / druhe_cislo)
+print("Súčet:", prve_cislo + druhe_cislo)
+print("Rozdiel:", prve_cislo - druhe_cislo)
+print("Súčin:", prve_cislo * druhe_cislo)
+print("Podiel:", prve_cislo / druhe_cislo)
 input("\nĎakujem za použitia kalkulačky, aplikáciu ukončíte ľubovoľnou klávesou.")
 
 # Mocnina
