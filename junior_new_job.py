@@ -165,12 +165,12 @@ else:
     print("He is not a programmer")
 
 # takto jednoducho vieme retazit podmienky ak neplati if python prejde na druhu elif a ak neplati ani ten prejde na else 
-#if is_programmer == False:
-#    print("Is not a programmer")
-#elif is_student == True:
-#    print("Is student")
-#else:
-#    print("Is programmer and is not a student")
+if is_programmer == False:
+    print("Is not a programmer")
+elif is_student == True:
+    print("Is student")
+else:
+    print("Is programmer and is not a student")
 
 # for cyklus
 #numbers = [1, 2, 3, 4, 5, 6]
