@@ -172,14 +172,14 @@ elif is_student == True:
 else:
     print("Is programmer and is not a student")
 
-# for cyklus
-#numbers = [1, 2, 3, 4, 5, 6]
-#for number in numbers:
-# print(number)
+ #for cyklus
+numbers = [1, 2, 3, 4, 5, 6]
+for number in numbers:
+#print(number)
 
-#name = 'Michal'
-#for character in name:
-#   print(character)
+name = 'Michal'
+for character in name:
+   print(character)
 
 
 #counter = range(0, 12)
