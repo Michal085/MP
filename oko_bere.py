@@ -2,8 +2,8 @@ from random import randrange
 
 sucet = 0
 while sucet < 21:
-    print('Máš', sucet, 'bodov')
-    odpoved = input('Otočit kartu? ')
+    print("Máš", sucet, "bodov")
+    odpoved = input("Otočit kartu?")
     if odpoved == 'ano':
         karta = randrange(2, 11)
         print('Otočil/a si', karta)
