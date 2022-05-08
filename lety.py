@@ -108,7 +108,7 @@ def unique_flight_combinations_bonus_v2(flights: t.Iterable[dict]) -> set[str]:
 
 def unique_flight_combinations_bonus_v3(flights: t.Iterable[dict]) -> set[str]:
     # Kompaktni zapis pres set-comprehension
-    # https://www.pythonforbeginners.com/basics/set-comprehension-in-python
+     https://www.pythonforbeginners.com/basics/set-comprehension-in-python
     return {f"{flight['source']}->{flight['destination']}" for flight in flights}
 
 
@@ -353,7 +353,7 @@ def add(x, y, z):
 
 
 # Volani int na nejakou hodnotu
-print(int("123"))
+print(int('123'))
 
 
 CHALLENGE_4 = """
