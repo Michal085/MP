@@ -182,25 +182,25 @@ for character in name:
    print(character)
 
 
-#counter = range(0, 12)
-#print(list(counter))
+counter = range(0, 12)
+print(list(counter))
 
-#def sucet_cisiel (cislo1, cislo2):
-#    result = cislo1 + cislo2
-#    return result
+def sucet_cisiel (cislo1, cislo2):
+    result = cislo1 + cislo2
+    return result
 
-#x = (5 + 4) +3
-#sucet = sucet_cisiel(cislo2=4, cislo1 =5)
+x = (5 + 4) +3
+sucet = sucet_cisiel(cislo2=4, cislo1 =5)
 
 # Dictionares - Slovniky
-#my_dict = {
-#   "key":"value",  # vzdy je na lavo kluc cize key a na pravo hodnota cize value 
-#   "Michal": 31 ,
-#   True: "True",
-#   False: "True",
-#}
-#my_dict["Michal"] = 32  # zmena hodnoty pomocou kluca "Michal"
-#print(my_dict["Michal"])
+my_dict = {
+   "key":"value",  # vzdy je na lavo kluc cize key a na pravo hodnota cize value 
+   "Michal": 31 ,
+   True: "True",
+   False: "True",
+}
+my_dict["Michal"] = 32  # zmena hodnoty pomocou kluca "Michal"
+print(my_dict["Michal"])
 
 #person = { 
 #    "name" : "Michal", 
