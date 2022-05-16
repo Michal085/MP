@@ -43,12 +43,12 @@ def send_email(reciever_email, message):
 
 
 def translator():
-    text = input("Zadaj text, ktorý chceš preložiť: ")
-    tar_language = input("Do jakeho jazyka to chcete prelozit: ")
+    text = input("Zadaj text, ktorý chceš preložiť:")
+    tar_language = input("Do jakeho jazyka to chcete prelozit:")
     preklad = translate(text, tar_language)
-    na_mail = input("chcete poslat preklad na mail? yes/no: ")
+    na_mail = input("chcete poslat preklad na mail? yes/no:")
     if na_mail == "yes":
-        poslat_na_mail = input("zadejte email: ")
+        poslat_na_mail = input("zadejte email:")
         send_email(poslat_na_mail, preklad)
     return preklad
 
