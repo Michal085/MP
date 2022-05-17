@@ -158,7 +158,7 @@ if is_student == True:
 
 is_programmer = True
 is_student = True
-if is_programmer ==False:
+if is_programmer == False:
     print("He is a programmer")
 # ak vyraz nieje pravda tak python vykona kod v casti else
 else:
@@ -202,23 +202,23 @@ my_dict = {
 my_dict["Michal"] = 32  # zmena hodnoty pomocou kluca "Michal"
 print(my_dict["Michal"])
 
-#person = { 
-#    "name" : "Michal", 
-#    "surname": "Placko", 
-#    "languages": ["Python", "JavaScript", "Java"],
-#    "instagram": "@misoplacko",
-#    "address": {
-#        "city": "New York",
-#        "street": "stret_name",
-#        "street_number": 45
-#    }
+person = { 
+    "name" : "Michal", 
+    "surname": "Placko", 
+    "languages": ["Python", "JavaScript", "Java"],
+    "instagram": "@michalplacko",
+    "address": {
+        "city": "New York",
+        "street": "stret_name",
+        "street_number": 45
+    }
 
-#}
-#print (person["languages"][-1])
+}
+print (person["languages"][-1])
 
-#for kluc, hodnota in list(person.items()):
-#   print("Key is: ", kluc)
-#   print("Value is: ", hodnota)
+for kluc, hodnota in list(person.items()):
+   print("Key is: ", kluc)
+   print("Value is: ", hodnota)
 
 #number_list = [1, 2, 3, 4, 8, 3, 29, 51, 79, 35, 78, 101, 114, 151, 156, 748, 14,]
 #print(number_list[7])
