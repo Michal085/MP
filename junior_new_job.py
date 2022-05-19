@@ -124,8 +124,8 @@ number_list = [1, 2, 3, 4, 5, 6, 7] # nasledna definicia listu
 print(number_list)
 
 # vieme don vkladat akekolvek datove typy
-string_list = ["Michal", "Placko", "Joseph"]
-combinated_list = [1, "Michal", "Joseph", True, 2.5]
+string_list = ["Michal", "Placko", "Paul"]
+combinated_list = [1, "Michal", "Paul", True, 2.5]
 
 # index listu je rovnaky ako list indexu stringu 
 print(number_list[0])
@@ -205,7 +205,7 @@ print(my_dict["Michal"])
 person = { 
     "name" : "Michal", 
     "surname": "Placko", 
-    "languages": ["Python", "JavaScript", "Java"],
+    "languages": ["Python", "PostgreSQL", "HTML_CSS"],
     "instagram": "@michalplacko",
     "address": {
         "city": "New York",
@@ -220,8 +220,8 @@ for kluc, hodnota in list(person.items()):
    print("Key is: ", kluc)
    print("Value is: ", hodnota)
 
-#number_list = [1, 2, 3, 4, 8, 3, 29, 51, 79, 35, 78, 101, 114, 151, 156, 748, 14,]
-#print(number_list[7])
+number_list = [1, 2, 3, 4, 8, 3, 29, 51, 79, 35, 78, 101, 114, 151, 156, 748, 14,]
+print(number_list[7])
 
 # Tuple je to ako imutable list cize nemozme menit obsah 
 # 
