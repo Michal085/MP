@@ -145,10 +145,41 @@ numbers + [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
 numbers[0] = 10 # miesto 0 sa zmeni hodnota na 10 
 print(numbers)
 
-# upravit vieme aj pomocou zloeneho indexu 
+# upravit vieme aj pomocou zlozeneho indexu 
 numbers[1:3]
 numbers + [1, 2]
 print(numbers)
+
+numbers_lists = [1, 2, 3, 4]
+numbers_lists.extend([5, 6, 8, 9]) # Funkcia extend rozbali pole a prida ho nakoniec 
+print(numbers_lists)
+
+
+letters = ['m', 'i', 'c', 'h', 'a', 'l', 'p', 'l', 'a', 'c', 'k', 'o']
+print(letters.count('a')) # Funkcia count vrati pocet vyskytu prvku v zatvorke
+print(letters.index('c')) # Funkcia index vrati poziciu prveho vyskytu prvku v zatvorke 
+letters.insert(3, "x") # Funkcia insert vlozi druhy prvok v zatvorke na poziciu (prvy prvok v zatvorke)
+print(letters)
+
+letters.remove("c") # Funkcia remove vymaze prvy vyskyt znatku v zatvorke 
+print(letters)
+
+letters.reverse() # Funkcia reverse otoci pole
+print(letters) 
+
+letters.clear() # Funkcia clear zmaze cely obsah pola
+print(letters)
+
+numbers = [8, 25, 61, 45, 2, 36, 4, 7, 10, 18, 22, 64, 70, 23]
+numbers.sort() # Funkcia sort usporiada pole 
+print
+
+nums = [1, 2, 3]
+nums.pop() # Funkcia pop vrati posledny prvok z pola a zaroven ho z neho vymaze
+print(nums)
+
+
+
 
 #Podmienky , CONDITIONS
 # jednoducha podmienka . Splni sa ak je vyraz v podmienke pravda , vzdy musime cast vykonania oddelit  but tab alebo 4 medzerami
