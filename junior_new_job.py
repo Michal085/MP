@@ -255,10 +255,10 @@ number_list = [1, 2, 3, 4, 8, 3, 29, 51, 79, 35, 78, 101, 114, 151, 156, 748, 14
 print(number_list[7])
 
 # Tuple je to ako imutable list cize nemozme menit obsah 
-# 
-#first_tuple = 1, 2, 3, 4
-#print(first_tuple)
-#print(type(first_tuple))
+ 
+first_tuple = 1, 2, 3, 4
+print(first_tuple)
+print(type(first_tuple))
 
 #def function_returning_tuple(element1, element2):
 #    return element1, element2
