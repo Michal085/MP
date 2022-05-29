@@ -58,6 +58,49 @@ print(not(x)) # FALSE
 #False   	   True	 
 #True	       False
 
+# while_cycle
+# while cyklus ma v sebe podmienku a funguje podobne ako if
+
+counter = 0
+while counter <5:
+    print(counter)
+    counter = counter +1
+print("Ahoj")
+
+
+#Nekonecny while cyklus nikdy podmienka neskonci ak stlacis ctrl + C zastavis nekonecny while cyklus 
+counter = 0
+while True:
+    print(counter)
+    if counter >= 4:
+        break
+    counter +=1
+print("Ahoj")
+
+
+for i in [1, 2, 3, 4]:
+    print(i)
+    if i ==4:
+        break # break vieme pouzit aj na ukoncenie cyklu
+print("Ahoj")
+
+counter = 0
+while True:
+    if counter == 2:
+        counter += 1
+        continue # klucove slovo continue sa pouziva na predcastne ukoncenie iteracie ale nie celeho cyklu
+    if counter >=5:
+        break
+    print(counter)
+    counter += 1
+
+#for i in [1, 2, 3, 4, 5]:
+#    if i == 2:
+#        continue
+#    print(i)
+
+
+
 # Retazce Strings
 # string vieme definovat pomocou dvojitych "" uvodzoviek ale aj jednoduchych ''
 string = "priamy vypis stringu"
