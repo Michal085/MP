@@ -94,10 +94,10 @@ while True:
     print(counter)
     counter += 1
 
-#for i in [1, 2, 3, 4, 5]:
-#    if i == 2:
-#        continue
-#    print(i)
+for i in [1, 2, 3, 4, 5]:
+    if i == 2:
+        continue
+    print(i)
 
 
 
@@ -303,8 +303,8 @@ first_tuple = 1, 2, 3, 4
 print(first_tuple)
 print(type(first_tuple))
 
-#def function_returning_tuple(element1, element2):
-#    return element1, element2
+def function_returning_tuple(element1, element2):
+    return element1, element2
 
 # x = function_returning_tuple("ahoj", "Michal")
 #print(x)
