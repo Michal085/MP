@@ -306,12 +306,12 @@ print(type(first_tuple))
 def function_returning_tuple(element1, element2):
     return element1, element2
 
-# x = function_returning_tuple("ahoj", "Michal")
-#print(x)
+ x = function_returning_tuple("ahoj", "Michal")
+print(x)
 
 
 # podtrznik znamena zamlcanie prvku 
 # 3 ku nevypise
-#x = (1, 2, 3)
-#a,b,_ = x 
-#print(a,b)
+x = (1, 2, 3)
+a,b,_ = x 
+print(a,b)
