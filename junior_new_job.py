@@ -276,6 +276,16 @@ my_dict = {
 my_dict["Michal"] = 32  # zmena hodnoty pomocou kluca "Michal"
 print(my_dict["Michal"])
 
+#print(my_dict)
+# k hodnotam vieme pristupovat pomocou [] kluca 
+#print(my_dict["Michal"])
+
+# dictionares je mutable sam o sebe takze vieme menit hodnoty a aj ich vymazavat 
+#my_dict["Michal"] = 37
+#my_dict["Thomas"] = 20
+
+#print(mixed_dict)
+
 person = { 
     "name" : "Michal", 
     "surname": "Placko", 
@@ -290,10 +300,18 @@ person = {
 }
 print (person["languages"][-1])
 
-for kluc, hodnota in list(person.items()):
+for kluc, hodnota in list(person.items()):  # list(item.persons) vrati pole dvojic 
    print("Key is: ", kluc)
    print("Value is: ", hodnota)
+   
+   
+print(list(person.keys())) # funkcia person.keys vrati list klucov
+print(list(person.values())) # funkcia vrati list hodnot
+person.pop("Michal") # pop vrati hodnotu kluca a nasledne kluc vymaze zo slovnika 
+person.popitem() # vrati tuple key-value a vymaze ho zo slovnika  
 
+
+   
 number_list = [1, 2, 3, 4, 8, 3, 29, 51, 79, 35, 78, 101, 114, 151, 156, 748, 14,]
 print(number_list[7])
 
@@ -315,3 +333,38 @@ print(x)
 x = (1, 2, 3)
 a,b,_ = x 
 print(a,b)
+
+
+# Coments , komenty
+"""
+Toto je viac riadkovy komentar v pythone. Ktory sa tiez nikdy nevykona.
+Takyto komentar sa pouziva na nieco co sa vola docstring.
+Docstring specifikuje funkciu pomocou komentaru. 
+"""
+
+#def custom_addition(elemnt1, element2):
+    """
+    Custom addition function dedicated for addition of element1 and element2.
+
+    Parameters:
+
+    element1 (int): First element
+    element2 (int): Second element
+
+    Returns:
+    
+    sum (int): addition
+    """
+#    return element1 + element2
+
+# Type hints example , tieto type hints je the best 
+
+def custom_addition(element1: int , element2: int) -> int:
+    return element1 + element2
+# ocakava element1 integer , element2 integer a vystup integer
+# autor kodu presne povie co ocakava napr. od funkcie 
+print(custom_addition(14, 5))
+
+# ak chcete nieco zakomentovat alebo odkomentovat vo VS code stlacte skratku:
+# ctrl + /
+# takto viete zakomentovat aj viac oznacenych riadkov
