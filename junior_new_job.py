@@ -276,15 +276,15 @@ my_dict = {
 my_dict["Michal"] = 32  # zmena hodnoty pomocou kluca "Michal"
 print(my_dict["Michal"])
 
-#print(my_dict)
+print(my_dict)
 # k hodnotam vieme pristupovat pomocou [] kluca 
-#print(my_dict["Michal"])
+print(my_dict["Michal"])
 
 # dictionares je mutable sam o sebe takze vieme menit hodnoty a aj ich vymazavat 
-#my_dict["Michal"] = 37
-#my_dict["Thomas"] = 20
+my_dict["Michal"] = 37
+my_dict["Thomas"] = 20
 
-#print(mixed_dict)
+print(mixed_dict)
 
 person = { 
     "name" : "Michal", 
@@ -355,7 +355,7 @@ Docstring specifikuje funkciu pomocou komentaru.
     
     sum (int): addition
     """
-#    return element1 + element2
+    return element1 + element2
 
 # Type hints example , tieto type hints je the best 
 
