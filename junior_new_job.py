@@ -368,3 +368,45 @@ print(custom_addition(14, 5))
 # ak chcete nieco zakomentovat alebo odkomentovat vo VS code stlacte skratku:
 # ctrl + /
 # takto viete zakomentovat aj viac oznacenych riadkov
+
+
+# Exceptions , vynimky 
+
+
+#x = 2 / 0
+#print(x)
+# tento zapis nam vyhodi chybu a aku ? x = 2 / 0 ZeroDivisionError: division by zero , preco? ako vsetci vieme ze v matematike nemozme delit 0 a python to vie 
+
+#try:  
+#    x = 2 / 0
+#except ZeroDivisionError: # except je ocakavanie tu musime zadat chybu ktoru ocakavame 
+#    print("Nastala chyba")
+#print("Ahoj")
+
+
+# Zachytit vieme akukolvek vynimku nemusime ju vzdy definovat aj ked je dobrym zvykom zachytavat presnu vynimku 
+#arr = [1, 2, 3, 4]
+#try:
+#    arr[102]
+#except Exception: # ak napiseme Exception tak chybu ako som spominal nemusime definovat staci napisat toto 
+#    print("Out of index")
+
+
+#Zachytit vieme aj viac vynimiek naraz ked specifikujeme typy vynimiek  
+def division(number1, number2):
+    try:
+        resault = number1/number2
+    except ZeroDivisionError:
+        print("Delenie nulou")
+        result = 0
+    except TypeError:
+        print("Zly typ na delenie")
+        resault = 0
+    except Exception as e:
+        print("Nastala chyba")
+        print(e)
+    return resault
+
+#print(division(4, 0))
+#print(division("Ahoj", "Miso"))
+#print(division(10, 5))
