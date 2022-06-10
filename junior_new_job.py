@@ -249,7 +249,7 @@ else:
  #for cyklus
 numbers = [1, 2, 3, 4, 5, 6]
 for number in numbers:
-#print(number)
+print(number)
 
 name = 'Michal'
 for character in name:
@@ -373,23 +373,23 @@ print(custom_addition(14, 5))
 # Exceptions , vynimky 
 
 
-#x = 2 / 0
-#print(x)
+x = 2 / 0
+print(x)
 # tento zapis nam vyhodi chybu a aku ? x = 2 / 0 ZeroDivisionError: division by zero , preco? ako vsetci vieme ze v matematike nemozme delit 0 a python to vie 
 
-#try:  
-#    x = 2 / 0
-#except ZeroDivisionError: # except je ocakavanie tu musime zadat chybu ktoru ocakavame 
-#    print("Nastala chyba")
-#print("Ahoj")
+try:  
+    x = 2 / 0
+except ZeroDivisionError: # except je ocakavanie tu musime zadat chybu ktoru ocakavame 
+    print("Nastala chyba")
+print("Ahoj")
 
 
 # Zachytit vieme akukolvek vynimku nemusime ju vzdy definovat aj ked je dobrym zvykom zachytavat presnu vynimku 
-#arr = [1, 2, 3, 4]
-#try:
-#    arr[102]
-#except Exception: # ak napiseme Exception tak chybu ako som spominal nemusime definovat staci napisat toto 
-#    print("Out of index")
+arr = [1, 2, 3, 4]
+try:
+    arr[102]
+except Exception: # ak napiseme Exception tak chybu ako som spominal nemusime definovat staci napisat toto 
+    print("Out of index")
 
 
 #Zachytit vieme aj viac vynimiek naraz ked specifikujeme typy vynimiek  
