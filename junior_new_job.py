@@ -437,3 +437,20 @@ def division(number1, number2):
   
 #with open("FileFolder/reverse_file.txt", "r") #pomocou "r" citanie suboru 
 #with open("FileFolder/reverse_file.txt", "a") #pomocou "a" mozme zapisovat na jeho koniec pomocou append
+
+
+# MODULES / Moduly
+
+# v pythone vieme importovat existujuci bod z ineho suboru pomocou syntaxe 
+#import mathematics 
+#from mathematics import addition # importing specific names from module
+#from mathematics import * # importuje vsetky nazvy modulu (zly zlozvyk radsej specifikuj podla nazvu modulu)
+
+# __init__.py sa niekedy v minulosti v starsich verziach pythonu pouzival na oznacenie priecinku ktory obsahoval python moduly
+# python ponuka niekolko build in kniznic ktore vieme importovat, kniznica je subor takych python modulov
+# napriklad math module
+# tieto funkcie nevidime ale su nainstalovane vo vasom pc hned ako ste nainstalovali python 
+import math
+print(math.factorial(8)) # vrati faktorial cisla 8
+
+
