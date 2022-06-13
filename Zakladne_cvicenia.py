@@ -87,7 +87,7 @@ def sucet_cisiel(cislo1, cislo2):
    return result
 sucet = sucet_cisiel(cislo2=5, cislo1=2)
 sucet_cisiel(2, 5)
-print('Sucet je' , sucet)
+print('Sucet je', sucet)
 
 def string_addition_with_delimiter(string1, string2, delimiter ="**"):
     return string1 + delimiter + string2
@@ -114,7 +114,7 @@ if simple_sum(4,3) > simple_sum(5, 2):
 else:
     print("Second is bigger")
 
-first_tuple = (1, 2, 3, )
+first_tuple = (1, 2, 3,)
 print(first_tuple)
 
 def sucet_cisiel(cislo1, cislo2):
