@@ -20,6 +20,6 @@ for clanok in obsah_clanku:
 header = ["jméno", "rok vydání", "režisér", "hlavní herci"]
 sorted_films = sorted(filmy_list, key=lambda x: x[1], reverse=True)
 with open("imdb_top250.csv", "w") as file:
-    writer = csv.writer(file)
+    writer = csv.writer(file )
     writer.writerow(header)
     writer.writerows(sorted_films)
