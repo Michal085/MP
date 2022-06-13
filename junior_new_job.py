@@ -407,18 +407,18 @@ def division(number1, number2):
         print(e)
     return resault
 
-#print(division(4, 0))
-#print(division("Ahoj", "Miso"))
-#print(division(10, 5))
+print(division(4, 0))
+print(division("Ahoj", "Michal"))
+print(division(10, 5))
 
 # Subory / Files
 
 #kazdy subor je ulozeny na mieste v pocitaci ku ktoremu vedie cesta
 #Kazdy subor je tvoreny znakmi s znakom konca riadka
 
-#file_reader = open("FileFolder\data_file.txt") # takto sa otvori subor. Je potrebne ho vzdy zavriet 
-#print(file_reader)
-#file_reader.close()
+file_reader = open("FileFolder\data_file.txt") # takto sa otvori subor. Je potrebne ho vzdy zavriet 
+print(file_reader)
+file_reader.close()
 
 
 
