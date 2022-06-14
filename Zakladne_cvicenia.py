@@ -149,9 +149,9 @@ suma = 0
 for cena in 1.75, 2.20, 1.03, 4.00, 3.50, 2.90, 1.89:
     suma = suma + cena
     pocet = pocet +1
-print("nakupil si", pocet ,"poloziek")
+print("nakupil si", pocet, "poloziek")
 print("Za", suma, "euro")
-print("Priemerna cena bola", round(suma/pocet, 2),"euro")
+print("Priemerna cena bola", round(suma/pocet, 2), "euro")
 
 strana = float(input('Zadaj stranu stvorca v centimetroch: '))
 cislo_je_spravne = strana > 0
@@ -162,4 +162,4 @@ if cislo_je_spravne:
 else:
     print('Strana musí byt kladná, inak z toho nebude stvorec!')
 
-print('Dakujeme za použití geometrickej kalkulačky.')
+print('Dakujeme za použitie  geometrickej kalkulačky.')
