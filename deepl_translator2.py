@@ -28,14 +28,14 @@ def translate(text, target_lang, source_lang=None):
 
 def send_email(reciever_email, message):
     sender_email = "rebelbean@seznam.cz"
-    receiver_email = [reciever_email]  # recipients
+    receiver_email = [reciever_email]  #recipients
     password = "passwordtest"
     msg = EmailMessage()
     msg.set_content(message)
     msg['Subject'] = 'Preklad'
     msg['From'] = sender_email
     msg['To'] = receiver_email
-    server = smtplib.SMTP_SSL('smtp.seznam.cz', 465)  # choose your provider server
+    server = smtplib.SMTP_SSL('smtp.seznam.cz', 465)  #choose your provider server
     server.login(sender_email, password)
     server.send_message(msg)
     server.quit()
@@ -46,9 +46,9 @@ def translator():
     text = input("Zadaj text, ktorý chceš preložiť:")
     tar_language = input("Do jakeho jazyka to chcete prelozit:")
     preklad = translate(text, tar_language)
-    na_mail = input("chcete poslat preklad na mail? yes/no:")
-    if na_mail == "yes":
-        poslat_na_mail = input("zadejte email:")
+    na_mail = input("chcete poslat preklad na mail? yes/no :")
+    if na_mail == "yes" :
+        poslat_na_mail = input("zadejte email :")
         send_email(poslat_na_mail, preklad)
     return preklad
 
