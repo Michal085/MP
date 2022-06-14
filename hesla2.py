@@ -7,11 +7,11 @@ with open (inFileName) as f:
 for line in lines:
     md5 = hashlib.md5(line.encode())
     md5hash = md5.hexdigest()
-    print(line + " : "+md5hash)
+    print(line + " : "+ md5hash)
     outFile.write(md5hash+'\n')
 outFile.close()
 
-param = (i*i for i in range (5))
+param = (i*i for i  in range (5))
 print(type(param))
 
 
