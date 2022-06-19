@@ -423,17 +423,17 @@ file_reader.close()
 
 
 # Ine sposoby pristupu su r-read, w-write, rb-read in binary mode, wb-write in binary mode 
-#with open ("FileFolder\data_file.txt", "r") :
-    # print(file)
-    # print(type(file))
-    # print(file.readline(1))
-    # print(list(file.readlines()))
+with open ("FileFolder\data_file.txt", "r") :
+    print(file)
+    print(type(file))
+    print(file.readline(1))
+    print(list(file.readlines()))
 
 
-#with open("FileFolder/reverse_file.txt", "w") as file: # pomocou "w" zapis do suboru prepisuje obsah suboru
-#    for number in [10, 9, 4, 6, 8, 12, 18, "Ahoj"]:
-#        file.write(str(number))
-#        file.write("\n")
+with open("FileFolder/reverse_file.txt", "w") as file: # pomocou "w" zapis do suboru prepisuje obsah suboru
+    for number in [10, 9, 4, 6, 8, 12, 18, "Ahoj"]:
+        file.write(str(number))
+        file.write("\n")
   
 #with open("FileFolder/reverse_file.txt", "r") #pomocou "r" citanie suboru 
 #with open("FileFolder/reverse_file.txt", "a") #pomocou "a" mozme zapisovat na jeho koniec pomocou append
