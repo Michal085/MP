@@ -435,14 +435,14 @@ with open("FileFolder/reverse_file.txt", "w") as file: # pomocou "w" zapis do su
         file.write(str(number))
         file.write("\n")
   
-#with open("FileFolder/reverse_file.txt", "r") #pomocou "r" citanie suboru 
-#with open("FileFolder/reverse_file.txt", "a") #pomocou "a" mozme zapisovat na jeho koniec pomocou append
+with open("FileFolder/reverse_file.txt", "r") #pomocou "r" citanie suboru 
+with open("FileFolder/reverse_file.txt", "a") #pomocou "a" mozme zapisovat na jeho koniec pomocou append
 
 
 # MODULES / Moduly
 
 # v pythone vieme importovat existujuci bod z ineho suboru pomocou syntaxe 
-#import mathematics 
+import mathematics 
 #from mathematics import addition # importing specific names from module
 #from mathematics import * # importuje vsetky nazvy modulu (zly zlozvyk radsej specifikuj podla nazvu modulu)
 
