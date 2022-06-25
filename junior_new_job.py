@@ -266,6 +266,13 @@ if -2:
 else:
     print("Its false")  
   
+# Pozor toto neplati pri porovnani s boolmi okrem cisla 1 
+print(1 == True)
+print(0 == False)
+print(2 == True) 
+print(-2 == True)  
+  
+  
   
  #for cyklus
 numbers = [1, 2, 3, 4, 5, 6]
