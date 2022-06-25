@@ -154,16 +154,7 @@ def printValues():
     print(l)
 printValues()
 
-#4 Pomocou slučky napíšte čísla od -20 do 20. Potom napíšte: - prvých 6 čísel
-#posledných 6 čísel
-#všetky párne čísla
-#všetky čísla okrem číslice 5
-#všetky čísla po číslicu 7 vrátane
-#všetky čísla deliteľné 3
-#súčet všetkých čísel
-#súčet čísel väčších alebo rovných 4
-#všetky čísla a ich právomoci
-#všetky čísla a ich hodnoty pre modulo 10
+
 for i in range (-20, 20, 2):
     print(i)
 
