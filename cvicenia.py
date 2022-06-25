@@ -24,14 +24,14 @@ num = num +4
 print(num)
 
 x = 0
-while x < 5:
+while x < 5 :
  x = x + 1
 print(x)
 def sum_up(x, y):
    return x + y
 
 
-def zmen (x) :
+def zmen (x):
     x [0] = 30
 a = [1, 2, 3]
 print(a)
@@ -64,21 +64,21 @@ class Calculator:
 
     def undo(self):
         if not self.results_history:
-            self.current_value = 0
+            self.current_value =0
         else:
             self.current_value = self.results_history.pop()
 
-     self.current_value = self.results_history.pop() if self.results_history else 0
+     self.current_value = self.results_history.pop() if self.results_history else  0
 
 def alice_cats(number_of_cats):
     if number_of_cats == 1:
         cat_string = 'a cat'
 
     if number_of_cats>20 and number_of_cats<10 and number_of_cats % 10 in {2, 3, 4}:
-        cat_string = 'cats'
+        cat_string = "cats"
 
     else:
-        cat_string = 'cats'
+        cat_string = "cats"
 
     return f'Alice has {number_of_cats} ' + cat_string + '.'
 
