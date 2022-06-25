@@ -246,6 +246,27 @@ elif is_student == True:
 else:
     print("Is programmer and is not a student")
 
+# Kazde cislo != 0 ma implicitnu pravdivostnu hodnotu True
+if 1:
+    print("Its True")
+else:
+    print("Its False")
+if 0:
+    print("Its True")
+else:
+    print("Its false")
+
+if 2:
+    print("Its True")
+else:
+    print("Its false")
+
+if -2:
+    print("Its True")
+else:
+    print("Its false")  
+  
+  
  #for cyklus
 numbers = [1, 2, 3, 4, 5, 6]
 for number in numbers:
@@ -265,6 +286,9 @@ def sucet_cisiel (cislo1, cislo2):
 
 x = (5 + 4) +3
 sucet = sucet_cisiel(cislo2=4, cislo1 =5)
+
+
+
 
 # Dictionares - Slovniky
 my_dict = {
