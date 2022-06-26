@@ -1,12 +1,12 @@
 # numerical_data_types
- # 1 + 1  scitovanie
- # 2 - 2  odcitovanie
- # 3 * 3  nasobenie
- # 20 / 4 delenie  desatine cislo float 
- # 5 // 5 celociselne delenie
- # 6 % 3  zvysok po deleni 
- # abs(-3) 
- #2 ** 2   umocnovanie
+  1 + 1  scitovanie
+  2 - 2  odcitovanie
+  3 * 3  nasobenie
+  20 / 4 delenie  desatine cislo float 
+  5 // 5 celociselne delenie
+  6 % 3  zvysok po deleni 
+  abs(-3) 
+ 2 ** 2   umocnovanie
 
 
  # premenne- Variables
