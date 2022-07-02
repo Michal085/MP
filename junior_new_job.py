@@ -88,7 +88,7 @@ counter = 0
 while True:
     if counter == 2:
         counter += 1
-        continue # klucove slovo continue sa pouziva na predcastne ukoncenie iteracie ale nie celeho cyklu
+        continue # klucove slovo continue sa pouziva na predcastne ukoncenie iteracie ale nie celeho cyklu , alebo preskocenie 
     if counter >=5:
         break
     print(counter)
