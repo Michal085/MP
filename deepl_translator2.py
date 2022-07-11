@@ -17,10 +17,12 @@ def translate(text, target_lang, source_lang=None):
         "text": text,
         "target_lang": target_lang
     }
+    
     if source_lang:
         parametry.update({"source_lang": source_lang})
 
     preklad = requests.get(url=deepl_url, params=parametry).json()
+    
     return preklad["translations"][0]["text"]
 
 
@@ -39,6 +41,7 @@ def send_email(reciever_email, message):
     server.login(sender_email, password)
     server.send_message(msg)
     server.quit()
+    
     return "Email sent!"
 
 
@@ -50,6 +53,7 @@ def translator():
     if na_mail == "yes" :
         poslat_na_mail = input("zadejte email :")
         send_email(poslat_na_mail, preklad)
+        
     return preklad
 
  print(translator())
