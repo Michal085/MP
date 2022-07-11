@@ -45,7 +45,7 @@ def unique_airport_combinations(flights):
 Vracet to bude množinu všech dvojic, například:
 
 ```
-{("DPS", "HKT"), ...}
+{("DPS", "HKT"),...}
 ```
 
 V dokumentaci si můžete přečíst něco o tom, jak se používají množiny a n-tice:
@@ -80,7 +80,7 @@ def unique_flight_combinations_v2(flights: t.Iterable[dict]) -> set[tuple[str, s
 
 def unique_flight_combinations_v3(flights: t.Iterable[dict]) -> set[tuple[str, str]]:
     # Kompaktni zapis pres set-comprehension
-    # https://www.pythonforbeginners.com/basics/set-comprehension-in-python
+     https://www.pythonforbeginners.com/basics/set-comprehension-in-python
     return {(flight["source"], flight["destination"]) for flight in flights}
 
 
@@ -244,19 +244,22 @@ def most_expensive_flight_v2(flights: list[dict]) -> int:
             max_price_so_far = flight["price"]
         else:
             continue
-
-    return max_price_so_far
+        return max_price_so_far
 
 
 def most_expensive_flight_v3(flights: list[dict]) -> int:
     flight_info_of_most_expensive = max(flights, key=lambda x: x["price"])
+    
+    
     return flight_info_of_most_expensive["price"]
 
 
 # Vsechny davaji stejny vysledek
 print("Nejdrazsi let:")
 print(most_expensive_flight_v1(parsed_records))
+
 print(most_expensive_flight_v2(parsed_records))
+
 print(most_expensive_flight_v3(parsed_records))
 
 
@@ -293,15 +296,20 @@ def cheapest_flight_v4(flights: list[dict]) -> int:
             min_price_so_far = flight["price"]
         else:
             continue
+            
 
     return int(min_price_so_far)
 
 
 # Vsechny davaji stejny vysledek
 print("Nejlevnejsi let:")
+
 print(cheapest_flight_v1(parsed_records))
+
 print(cheapest_flight_v2(parsed_records))
+
 print(cheapest_flight_v3(parsed_records))
+
 print(cheapest_flight_v4(parsed_records))
 
 
