@@ -107,7 +107,7 @@ def sum_array(array):
 print(sum_array(cisla))
 
 def simple_sum(a, b):
-    return  a + b
+    return  a +  b
 
 if simple_sum(4,3) > simple_sum(5, 2):
     print("First is bigger")
@@ -121,7 +121,7 @@ def sucet_cisiel(cislo1, cislo2):
     result = cislo1 + cislo2
     return result
 
-x =(5 + 4) +3
+x =(5 + 4) + 3
 sucet = sucet_cisiel(sucet_cisiel(cislo1=2 , cislo2=8),3)    
 print(sucet)
 
@@ -144,14 +144,14 @@ sucet = sucet_cisiel(sucet_cisiel(cislo2=10, cislo1=15),3)
 print(sucet)
 
 # Priemer
-pocet =0 
+pocet = 0 
 suma = 0
 for cena in 1.75, 2.20, 1.03, 4.00, 3.50, 2.90, 1.89:
     suma = suma + cena
-    pocet = pocet +1
-print("nakupil si", pocet, "poloziek")
-print("Za", suma, "euro")
-print("Priemerna cena bola", round(suma/pocet, 2), "euro")
+    pocet = pocet + 1
+print("nakupil si",  pocet,  "poloziek")
+print("Za",  suma,  "euro")
+print("Priemerna cena bola", round(suma/pocet, 2),  "euro")
 
 strana = float(input('Zadaj stranu stvorca v centimetroch: '))
 cislo_je_spravne = strana > 0
