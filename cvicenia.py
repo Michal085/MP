@@ -173,7 +173,7 @@ print('pocet sekund je', sekund)
 
 for i in range (5):
  print(i)
- print('Konec tohoto kola cyklu')
+ print('Koniec tohto kola cyklu')
 
 print("Zdvojnásobovač!")
 cislo = float(input("Zadajte číslo: ")) # reťazec z input () sa prevedie na celé číslo
